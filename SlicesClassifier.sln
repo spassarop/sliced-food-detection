@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlicesClassifier", "SlicesClassifier.csproj", "{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Debug|x64.ActiveCfg = Debug|x64
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Debug|x64.Build.0 = Debug|x64
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Release|x64.ActiveCfg = Release|x64
+		{6FD69B29-E1CF-4B72-BCAB-9E65933E579E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D45F83A3-D61E-48AF-9482-A4D6BCD4606A}
+	EndGlobalSection
+EndGlobal

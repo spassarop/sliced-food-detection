@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+    <StartupObject>SlicesClassifier.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dataset\NonSliced\**" />
+    <Compile Remove="Dataset\Sliced\**" />
+    <EmbeddedResource Remove="Dataset\NonSliced\**" />
+    <EmbeddedResource Remove="Dataset\Sliced\**" />
+    <None Remove="Dataset\NonSliced\**" />
+    <None Remove="Dataset\Sliced\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.7.82" />
+    <PackageReference Include="Microsoft.ML" Version="1.5.0-preview" />
+    <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.5.0-preview" />
+    <PackageReference Include="Microsoft.ML.Vision" Version="1.5.0-preview" />
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="1.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Workspace\" />
+  </ItemGroup>
+</Project>
